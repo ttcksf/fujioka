@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "style.scss",
+        "module/_variables.scss",
+        "breakpoints/_base.scss",
+        "breakpoints/_480up.scss",
+        "breakpoints/_600up.scss",
+        "breakpoints/_960up.scss",
+        "breakpoints/_1280up.scss",
+        "breakpoints/_2x.scss",
+        "breakpoints/_print.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
