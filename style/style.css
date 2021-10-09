@@ -1,1 +1,174 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+/*ベーススタイル*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.7;
+  font-size: 32px;
+  overflow: hidden;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  font-size: inherit;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+input[type="submit"] {
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.6;
+}
+
+textarea {
+  width: 100%;
+  font-size: inherit;
+  border: 1px solid #333;
+  resize: none;
+}
+
+::placeholder {
+  opacity: 1;
+  color: #333;
+}
+
+.sp-none {
+  display: none;
+}
+
+.font-md {
+  font-size: 40px;
+}
+
+.font-lr {
+  font-size: 55px;
+}
+
+.font-lg {
+  font-size: 90px;
+}
+
+.ml-sm {
+  margin-left: 50px !important;
+}
+
+.mb-sm {
+  margin-bottom: 30px !important;
+}
+
+.mb-md {
+  margin-bottom: 50px !important;
+}
+
+.mb-lr {
+  margin-bottom: 100px !important;
+}
+
+.mb-lg {
+  margin-bottom: 230px !important;
+}
+
+.pb-sm {
+  padding-bottom: 30px !important;
+}
+
+.pb-md {
+  padding-bottom: 50px !important;
+}
+
+.pb-lr {
+  padding-bottom: 100px !important;
+}
+
+.pb-lg {
+  margin-bottom: 230px !important;
+}
+
+.content-width {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1070px;
+}
+
+@media (min-width: 600px) {
+  /*600px以上959px以下*/
+  .sp-none {
+    display: block;
+  }
+  .tab-none {
+    display: none;
+  }
+}
+
+@media (min-width: 960px) {
+  /*960px以上1279px以下*/
+  .tab-none {
+    display: block;
+  }
+  .font-sm {
+    font-size: 16px;
+  }
+  .font-md {
+    font-size: 19px;
+  }
+  .font-lr {
+    font-size: 23px;
+  }
+  .font-lg {
+    font-size: 36px;
+  }
+  .mb-lg {
+    margin-bottom: 150px !important;
+  }
+  .pb-lg {
+    padding-bottom: 150px !important;
+  }
+  .content-width {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 150px;
+    max-width: 1070px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
