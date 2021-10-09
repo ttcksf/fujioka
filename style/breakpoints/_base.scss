@@ -1,0 +1,126 @@
+/*ベーススタイル*/
+
+//タグスタイル
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.7;
+  font-size: 32px;
+  overflow: hidden;
+  max-width: 100%;
+  word-break: break-all;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border: none;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+ul {
+  list-style: none;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  font-size: inherit;
+  border: 1px solid $cBlack;
+  border-radius: 5px;
+}
+input[type="text"]:focus {
+  outline: 0;
+}
+input[type="submit"] {
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+textarea {
+  width: 100%;
+  font-size: inherit;
+  border: 1px solid $cBlack;
+  resize: none;
+}
+::-webkit-input-placeholder {
+  opacity: 1;
+  color: $cBlack;
+}
+
+:-ms-input-placeholder {
+  opacity: 1;
+  color: $cBlack;
+}
+
+::-ms-input-placeholder {
+  opacity: 1;
+  color: $cBlack;
+}
+
+::placeholder {
+  opacity: 1;
+  color: $cBlack;
+}
+
+//共通クラス
+.sp-none{
+    display: none;
+}
+
+.font-md {
+  font-size: 40px;
+}
+.font-lr {
+  font-size: 55px;
+}
+.font-lg {
+  font-size: 90px;
+}
+.ml-sm {
+  margin-left: 50px !important;
+}
+.mb-sm {
+  margin-bottom: 30px !important;
+}
+.mb-md {
+  margin-bottom: 50px !important;
+}
+.mb-lr {
+  margin-bottom: 100px !important;
+}
+.mb-lg {
+  margin-bottom: 230px !important;
+}
+.pb-sm {
+  padding-bottom: 30px !important;
+}
+.pb-md {
+  padding-bottom: 50px !important;
+}
+.pb-lr {
+  padding-bottom: 100px !important;
+}
+.pb-lg {
+  margin-bottom: 230px !important;
+}
+.content-width {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: $contentMaxWidth;
+}
