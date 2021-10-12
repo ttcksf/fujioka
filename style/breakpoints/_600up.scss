@@ -1,8 +1,68 @@
 /*600px以上959px以下*/
-//共通クラス
-.sp-none{
-    display: block;
+/*ベーススタイル*/
+
+//タグスタイル
+
+body {
+  font-size: 20px;
 }
-.tab-none{
-    display: none;
+
+//共通クラス
+.sp-none {
+  display: block;
+}
+.tab-none {
+  display: none;
+}
+.content-width {
+  padding: 0 45px;
+}
+
+//header
+.header{
+    height: 140px;
+}
+.header__left--logo {
+  a {
+    font-size: 30px;
+    img {
+      width: 38px;
+      height: auto;
+    }
+  }
+}
+.header__left--tel {
+  a {
+    font-size: 32px;
+    img {
+      width: 32px;
+    }
+  }
+}
+
+.header__right {
+  width: 240px;
+  height: 60px;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+.header__right--btn {
+  span {
+    font-size: 30px;
+    padding-right: 20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      top: 50%;
+      right: 0%;
+      width: 10px;
+      height: 10px;
+      border-top: 2px solid $cWhite;
+      border-right: 2px solid $cWhite;
+      transform: rotate(45deg);
+      margin-top: -2px;
+    }
+  }
 }
