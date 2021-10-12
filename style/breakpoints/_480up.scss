@@ -2,8 +2,8 @@
 
 //タグスタイル
 
-body{
-    font-size: 18px;
+body {
+  font-size: 18px;
 }
 
 //共通クラス
@@ -12,11 +12,19 @@ body{
 }
 
 //header
-.header__left--tel{
-  a{
+.header__left--tel {
+  a {
     letter-spacing: 1.4px;
-    img{
-      
+    img {
     }
   }
+}
+//main__visual
+.main__visual--image {
+  margin-top: -5px;
+  background-position: bottom;
+  height: 300px;
+}
+.main__visual--content {
+  height: 280px;
 }
