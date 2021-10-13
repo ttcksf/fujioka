@@ -28,3 +28,24 @@ body {
 .main__visual--content {
   height: 280px;
 }
+
+//needs
+.needs{
+  padding: 40px 20px 20px;
+}
+.needs__lead--heading {
+  font-size: 32px;
+  span.fifty {
+    font-size: 48px;
+  }
+  span.needs__lead--border {
+    padding: 0 13px;
+    &::before {
+      height: 75px;
+    }
+    &::after {
+      height: 75px;
+    }
+  }
+}
+

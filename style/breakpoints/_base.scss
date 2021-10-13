@@ -215,3 +215,63 @@ textarea {
     transform: translate(-50%, -50%);
   }
 }
+
+//needs
+.needs{
+  width: 100%;
+  background: url("../image/second-visual.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 40px 5px 20px;
+}
+.needs__lead{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.needs__lead--heading{
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-weight: 500;
+  color: $cWhite;
+  line-height: 1;
+  white-space: nowrap;
+  text-shadow:1px 0 5px $cBlueBk;
+  br{
+
+  }
+  span.fifty{
+    font-size: 32px;
+  }
+  span.needs__lead--border{
+    display: inline-block;
+    position: relative;
+    padding: 0 13px;
+    &::before{
+      position: absolute;
+      content: "";
+      background: $cWhite;
+      width: 1px;
+      height: 45px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(-10deg);
+    }
+    &::after{
+      position: absolute;
+      content: "";
+      background: $cWhite;
+      width: 1px;
+      height: 45px;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%) rotate(10deg);
+    }
+  }
+}
+.needs__lead--img{
+  margin-top: 20px;
+}
