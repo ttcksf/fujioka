@@ -49,3 +49,43 @@ body {
   }
 }
 
+.needs__Q {
+  width: 100%;
+  height: 900px;
+  background: #6199c7;
+  padding-top: 40px;
+}
+.needs__Q--lead {
+  & > img:first-child {
+    width: 45px;
+    height: 110px;
+  }
+  & > img:last-child{
+    width: 39px;
+    height: 114px;
+  }
+}
+.needs__Q--heading {
+  h2 {
+    font-size: 24px;
+    &::before {
+      
+      width: 25px;
+      height: 25px;
+    }
+    span.dot {
+      font-size: 36px;
+    }
+  }
+}
+.needs__Q--description {
+  padding: 10px 25px;
+  p {
+    font-size: 18px;
+    text-indent: -1rem;
+    &::before {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

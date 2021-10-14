@@ -78,8 +78,8 @@ textarea {
 }
 
 //共通クラス
-.sp-none{
-    display: none;
+.sp-none {
+  display: none;
 }
 .content-width {
   max-width: 100%;
@@ -90,22 +90,22 @@ textarea {
 }
 
 //header
-.header{
+.header {
   background: $cWhite;
   height: 90px;
   padding: 15px 0;
 }
-.header__inner{
+.header__inner {
   display: flex;
   align-items: center;
 }
-.header__left{
+.header__left {
 }
-.header__left--logo{
+.header__left--logo {
   margin: 0;
-  a{
+  a {
     color: $cBlack;
-    img{
+    img {
       display: inline-block;
       margin-right: 5px;
       width: 26px;
@@ -114,11 +114,11 @@ textarea {
     }
   }
 }
-.header__left--tel{
+.header__left--tel {
   margin: 0;
-  a{
+  a {
     color: $cBlueBk;
-    img{
+    img {
       display: inline-block;
       width: 24px;
       height: auto;
@@ -127,7 +127,7 @@ textarea {
     }
   }
 }
-.header__right{
+.header__right {
   margin-left: auto;
   width: 150px;
   height: 40px;
@@ -136,16 +136,16 @@ textarea {
   text-align: center;
   line-height: 16px;
 }
-.header__right--btn{
-  span{
+.header__right--btn {
+  span {
     width: 100%;
     height: 100%;
     color: $cWhite;
     padding-right: 10px;
     position: relative;
     font-weight: 300;
-    
-    &::after{
+
+    &::after {
       content: "";
       position: absolute;
       display: inline-block;
@@ -162,23 +162,23 @@ textarea {
 }
 
 //main__visual
-.main__visual{
+.main__visual {
   width: 100%;
   height: auto;
 }
-.main__visual--place{
+.main__visual--place {
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   background: $cBlue;
-  img{
+  img {
     width: 275px;
     display: inline-block;
   }
 }
-.main__visual--image{
+.main__visual--image {
   margin-top: -5px;
   width: 100%;
   height: 300px;
@@ -187,14 +187,14 @@ textarea {
   background-size: cover;
   background-position: 50% 0%;
   position: relative;
-  img.main__visual--logo{
+  img.main__visual--logo {
     position: absolute;
     width: 50px;
     top: 10%;
     left: 10%;
     transform: translate(-10%, -10%);
   }
-  img.main__visual--sub{
+  img.main__visual--sub {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -202,12 +202,12 @@ textarea {
     width: 130px;
   }
 }
-.main__visual--content{
+.main__visual--content {
   width: 100%;
   height: 250px;
   background: linear-gradient(to bottom, $cBlue, $cBlueBk 30%, $cBlue);
   position: relative;
-  img{
+  img {
     width: 70%;
     position: absolute;
     top: 50%;
@@ -217,20 +217,21 @@ textarea {
 }
 
 //needs
-.needs{
+.needs {
   width: 100%;
+  height: auto;
+}
+.needs__lead {
+  width: 100%;
+  height: 100%;
   background: url("../image/second-visual.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   padding: 40px 5px 20px;
-}
-.needs__lead{
-  width: 100%;
-  height: 100%;
   text-align: center;
 }
-.needs__lead--heading{
+.needs__lead--heading {
   margin: 0;
   font-size: 24px;
   letter-spacing: 2px;
@@ -239,18 +240,17 @@ textarea {
   color: $cWhite;
   line-height: 1;
   white-space: nowrap;
-  text-shadow:1px 0 5px $cBlueBk;
-  br{
-
+  text-shadow: 1px 0 5px $cBlueBk;
+  br {
   }
-  span.fifty{
+  span.fifty {
     font-size: 32px;
   }
-  span.needs__lead--border{
+  span.needs__lead--border {
     display: inline-block;
     position: relative;
     padding: 0 13px;
-    &::before{
+    &::before {
       position: absolute;
       content: "";
       background: $cWhite;
@@ -260,7 +260,7 @@ textarea {
       top: 50%;
       transform: translateY(-50%) rotate(-10deg);
     }
-    &::after{
+    &::after {
       position: absolute;
       content: "";
       background: $cWhite;
@@ -272,6 +272,79 @@ textarea {
     }
   }
 }
-.needs__lead--img{
+.needs__lead--img {
   margin-top: 20px;
+}
+.needs__Q {
+  width: 100%;
+  height: 900px;
+  background: #6199c7;
+  padding-top: 40px;
+}
+.needs__Q--lead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & > img {
+    width: 30px;
+    height: 80px;
+  }
+}
+.needs__Q--heading {
+  text-align: center;
+  h2 {
+    display: inline-block;
+    color: $cWhite;
+    font-weight: 300;
+    font-size: 18px;
+    &::before {
+      display: inline-block;
+      content: "";
+      background: url("../../image/check-white.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+    }
+    span.dot {
+      color: $cBlueBk;
+      font-weight: 500;
+      font-size: 30px;
+      display: inline-block;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: -65%;
+        left: 50%;
+        transform: translateX(-50%);
+        transform: translateY(10%);
+        content: ".";
+      }
+    }
+  }
+}
+.needs__Q--description {
+  background: $cWhite;
+  padding: 10px 25px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 40px solid transparent;
+    border-top: 30px solid $cWhite;
+  }
+  p {
+    font-size: 16px;
+    text-indent: -1rem;
+    &::before {
+      display: inline-block;
+      content: "";
+      background: url("../../image/check-black.png");
+      background-size: cover;
+      width: 20px;
+      height: 20px;
+    }
+  }
 }

@@ -138,3 +138,45 @@ body {
     }
   }
 }
+.needs__Q {
+  width: 100%;
+  height: 900px;
+  background: #6199c7;
+  padding-top: 40px;
+}
+.needs__Q--lead {
+  
+  & > img:first-child {
+    width: 50px;
+    height: 120px;
+  }
+  & > img:last-child{
+    width: 45px;
+    height: 125px;
+  }
+}
+.needs__Q--heading {
+  h2 {
+    font-size: 32px;
+    &::before {
+      
+      width: 30px;
+      height: 30px;
+    }
+    span.dot {
+      font-size: 48px;
+    }
+  }
+}
+
+.needs__Q--description {
+  padding: 10px 35px;
+  p {
+    font-size: 20px;
+    text-indent: -1.5rem;
+    &::before {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
