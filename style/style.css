@@ -412,6 +412,56 @@ textarea {
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
+.contact {
+  background: #E4F5EF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.contact__heading {
+  position: relative;
+  padding: 7px 10px;
+  max-width: 100%;
+  color: #1E6EAF;
+  background: #fff;
+  font-size: 19px;
+  border-radius: 30px;
+  box-shadow: 1px 0 5px #c0c0c0;
+}
+
+.contact__heading::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 10px solid transparent;
+  border-top: 15px solid #fff;
+}
+
+.contact__btn--green {
+  color: #fff;
+  background: #00a393;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact__btn--date {
+  font-size: 16px;
+}
+
+.contact__btn--orange {
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  background: #f1ae4b;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -480,6 +530,26 @@ textarea {
   }
   .needs__A--description tr td span {
     font-size: 30px;
+  }
+  .contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact__heading {
+    font-size: 20px;
+  }
+  .contact__btn--green {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .contact__btn--date {
+    font-size: 20px;
+  }
+  .contact__btn--orange {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 
@@ -636,6 +706,10 @@ textarea {
   }
   .needs__A--description tr td span {
     font-size: 40px;
+  }
+  .contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 

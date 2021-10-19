@@ -384,3 +384,50 @@ textarea {
     }
   }
 }
+
+//contact
+.contact{
+  background: #E4F5EF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.contact__heading{
+  position: relative;
+  padding: 7px 10px;
+  max-width: 100%;
+  color: $cBlue;
+  background: $cWhite;
+  font-size: 19px;
+  border-radius: 30px;
+  box-shadow: 1px 0 5px #c0c0c0;
+  &::before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    border-top: 15px solid $cWhite;
+  }
+}
+.contact__btn--green{
+  color: $cWhite;
+  background: $cGreen;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact__btn--date{
+  font-size: 16px;
+  
+}
+.contact__btn--orange{
+  border-radius: 5px;
+  color: $cWhite;
+  font-size: 16px;
+  background: $cOrange;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
