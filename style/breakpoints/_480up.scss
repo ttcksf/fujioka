@@ -100,18 +100,18 @@ body {
   padding-bottom: 30px;
 }
 .contact__heading{
-  font-size: 20px;
+  font-size: 30px;
 }
 .contact__btn--green{
-  font-size: 20px;
+  font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .contact__btn--date{
-  font-size: 20px;
+  font-size: 24px;
 }
 .contact__btn--orange{
-  font-size: 20px;
+  font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -121,26 +121,30 @@ body {
 
 }
 .about__company{
-  height: 300px;
-
+  height: 400px;
+  h1{
+    font-size: 56px;
+  }
 }
 
 .about__description--wrapper{
+  font-size: 24px;
   .about__description--50{
     height: 300px;
   }
   .about__description--50__wrapper{
     p{
-      font-size: 20px;
+      font-size: 24px;
       img{
         width: 100px;
       }
     }
     & p:nth-child(3){
-      font-size: 24px;
+      margin-top: 15px;
+      font-size: 32px;
     }
     & p:nth-child(4){
-      font-size: 24px;
+      font-size: 32px;
     }
   }
   .about__description--arrow{
@@ -148,11 +152,13 @@ body {
       width: 140px;
     }
     p{
+      font-size: 20px;
       top: calc(40% - 10px);
       transform: translate(-50%, -60%);
     }
   }
   .about__description--point{
+    font-size: 24px;
     th{
       img{
         width: 35px;

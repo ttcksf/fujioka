@@ -189,44 +189,64 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.contact__heading{
+  font-size: 40px;
+}
+.contact__btn--green{
+  font-size: 32px;
+}
+.contact__btn--date{
+  font-size: 32px;
+}
+.contact__btn--orange{
+  font-size: 32px;
+}
 
 //about
 .about{
 
 }
 .about__company{
-  height: 450px;
-
+  height: 590px;
+  h1{
+    font-size: 72px;
+  }
 }
 
 .about__description--wrapper{
+  font-size: 32px;
   .about__description--50{
-    height: 450px;
+    height: 400px;
   }
   .about__description--50__wrapper{
     p{
-      font-size: 24px;
+      font-size: 32px;
       img{
         width: 120px;
       }
     }
     & p:nth-child(3){
-      font-size: 30px;
+      margin-top: 20px;
+      font-size: 40px;
     }
     & p:nth-child(4){
-      font-size: 30px;
+      font-size: 40px;
     }
   }
   .about__description--arrow{
     img{
-      width: 150px;
+      width: 200px;
     }
     p{
+      font-size: 27px;
       top: calc(40% - 10px);
       transform: translate(-50%, -60%);
     }
   }
   .about__description--point{
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 30px;
     th{
       img{
         width: 40px;
