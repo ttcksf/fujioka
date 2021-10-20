@@ -431,3 +431,107 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+//about
+.about{
+
+}
+.about__company{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/image/third-visual.png") no-repeat center center / cover;
+  h1{
+    margin: 0;
+    text-align: center;
+    color: $cBlue;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+}
+.about__description{
+  background: #D2E2EF;
+  padding: 10px;
+}
+.about__description--wrapper{
+  background: $cWhite;
+  padding: 10px;
+  border-radius: 5px;
+  img{
+
+  }
+  p{
+
+  }
+  .about__description--merker{
+    background:linear-gradient(transparent 60%, #ff6 60%);
+  }
+  .about__description--blue{
+    color: $cBlue;
+  }
+  .about__description--50{
+    border: 3px solid #ff6;
+    font-weight: 300;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/image/50-bk.png") no-repeat center center / cover;
+  }
+  .about__description--50__wrapper{
+    text-align: center;
+    p{
+      color: $cWhite;
+      margin: 0;
+      img{
+        display: inline-block;
+        width: 60px;
+      }
+    }
+    & p:nth-child(3){
+      margin-top: 10px;
+      font-weight: 500;
+      border-bottom: 3px solid $cWhite;
+      display: inline-block;
+      font-size: 20px;
+    }
+  }
+  .about__description--arrow{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    img{
+      margin-top: 10px;
+      display: inline-block;
+      width: 100px;
+    }
+    p{
+      position: absolute;
+      top: calc(50% - 10px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: 300;
+      color: $cWhite;
+    }
+  }
+  .about__description--point{
+    margin: -10px auto 0;
+    background: #DFDFDF;
+    padding: 10px;
+    th{
+      img{
+        display: inline-block;
+        width: 30px;
+        margin-right: 5px;
+      }
+    }
+    td{
+      span{
+        background:linear-gradient(transparent 60%, #ff6 60%);
+      }
+    }
+  }
+}

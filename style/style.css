@@ -462,6 +462,113 @@ textarea {
   padding-bottom: 10px;
 }
 
+.about__company {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/image/third-visual.png") no-repeat center center/cover;
+}
+
+.about__company h1 {
+  margin: 0;
+  text-align: center;
+  color: #1E6EAF;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.about__description {
+  background: #D2E2EF;
+  padding: 10px;
+}
+
+.about__description--wrapper {
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.about__description--wrapper .about__description--merker {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+
+.about__description--wrapper .about__description--blue {
+  color: #1E6EAF;
+}
+
+.about__description--wrapper .about__description--50 {
+  border: 3px solid #ff6;
+  font-weight: 300;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/image/50-bk.png") no-repeat center center/cover;
+}
+
+.about__description--wrapper .about__description--50__wrapper {
+  text-align: center;
+}
+
+.about__description--wrapper .about__description--50__wrapper p {
+  color: #fff;
+  margin: 0;
+}
+
+.about__description--wrapper .about__description--50__wrapper p img {
+  display: inline-block;
+  width: 60px;
+}
+
+.about__description--wrapper .about__description--50__wrapper p:nth-child(3) {
+  margin-top: 10px;
+  font-weight: 500;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.about__description--wrapper .about__description--arrow {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about__description--wrapper .about__description--arrow img {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100px;
+}
+
+.about__description--wrapper .about__description--arrow p {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 300;
+  color: #fff;
+}
+
+.about__description--wrapper .about__description--point {
+  margin: -10px auto 0;
+  background: #DFDFDF;
+  padding: 10px;
+}
+
+.about__description--wrapper .about__description--point th img {
+  display: inline-block;
+  width: 30px;
+  margin-right: 5px;
+}
+
+.about__description--wrapper .about__description--point td span {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -550,6 +657,67 @@ textarea {
     font-size: 20px;
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .about__company {
+    height: 300px;
+  }
+  .about__description--wrapper .about__description--merker {
+    background: linear-gradient(transparent 60%, #ff6 60%);
+  }
+  .about__description--wrapper .about__description--blue {
+    color: #1E6EAF;
+  }
+  .about__description--wrapper .about__description--50 {
+    height: 300px;
+  }
+  .about__description--wrapper .about__description--50__wrapper {
+    text-align: center;
+  }
+  .about__description--wrapper .about__description--50__wrapper p {
+    color: #fff;
+    margin: 0;
+  }
+  .about__description--wrapper .about__description--50__wrapper p img {
+    display: inline-block;
+    width: 60px;
+  }
+  .about__description--wrapper .about__description--50__wrapper p:nth-child(3) {
+    margin-top: 10px;
+    font-weight: 500;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .about__description--wrapper .about__description--arrow {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .about__description--wrapper .about__description--arrow img {
+    margin-top: 10px;
+    display: inline-block;
+    width: 100px;
+  }
+  .about__description--wrapper .about__description--arrow p {
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    color: #fff;
+  }
+  .about__description--wrapper .about__description--point {
+    margin: -10px auto 0;
+    background: #DFDFDF;
+    padding: 10px;
+  }
+  .about__description--wrapper .about__description--point th img {
+    display: inline-block;
+    width: 30px;
+    margin-right: 5px;
+  }
+  .about__description--wrapper .about__description--point td span {
+    background: linear-gradient(transparent 60%, #ff6 60%);
   }
 }
 
