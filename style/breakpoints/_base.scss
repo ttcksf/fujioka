@@ -498,6 +498,9 @@ textarea {
       display: inline-block;
       font-size: 20px;
     }
+    & p:nth-child(4){
+      font-size: 20px;
+    }
   }
   .about__description--arrow{
     display: flex;

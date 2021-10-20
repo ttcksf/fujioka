@@ -131,53 +131,32 @@ body {
   }
   .about__description--50__wrapper{
     p{
-      color: $cWhite;
-      margin: 0;
+      font-size: 20px;
       img{
-        display: inline-block;
         width: 100px;
       }
     }
     & p:nth-child(3){
-      margin-top: 10px;
-      font-weight: 500;
-      border-bottom: 3px solid $cWhite;
-      display: inline-block;
-      font-size: 20px;
+      font-size: 24px;
+    }
+    & p:nth-child(4){
+      font-size: 24px;
     }
   }
   .about__description--arrow{
-    display: flex;
-    justify-content: center;
-    position: relative;
     img{
-      margin-top: 10px;
-      display: inline-block;
-      width: 100px;
+      width: 140px;
     }
     p{
-      position: absolute;
-      top: calc(50% - 10px);
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-weight: 300;
-      color: $cWhite;
+      top: calc(40% - 10px);
+      transform: translate(-50%, -60%);
     }
   }
   .about__description--point{
-    margin: -10px auto 0;
-    background: #DFDFDF;
-    padding: 10px;
     th{
       img{
-        display: inline-block;
-        width: 30px;
-        margin-right: 5px;
-      }
-    }
-    td{
-      span{
-        background:linear-gradient(transparent 60%, #ff6 60%);
+        width: 35px;
+        margin-right: 10px;
       }
     }
   }

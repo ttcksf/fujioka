@@ -189,3 +189,49 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+//about
+.about{
+
+}
+.about__company{
+  height: 450px;
+
+}
+
+.about__description--wrapper{
+  .about__description--50{
+    height: 450px;
+  }
+  .about__description--50__wrapper{
+    p{
+      font-size: 24px;
+      img{
+        width: 120px;
+      }
+    }
+    & p:nth-child(3){
+      font-size: 30px;
+    }
+    & p:nth-child(4){
+      font-size: 30px;
+    }
+  }
+  .about__description--arrow{
+    img{
+      width: 150px;
+    }
+    p{
+      top: calc(40% - 10px);
+      transform: translate(-50%, -60%);
+    }
+  }
+  .about__description--point{
+    th{
+      img{
+        width: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
