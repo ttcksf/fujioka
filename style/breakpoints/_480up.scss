@@ -177,3 +177,24 @@ body {
     font-size: 32px;
   }
 }
+.merit__kinds{
+  padding: 40px 20px;
+}
+.merit__kinds--wrapper{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.merit__kind{
+  .merit__kinds--title{
+    margin-left: -20px;
+  }
+  p{
+    font-size: 24px;
+  }
+  &:nth-child(2){
+    .merit__kinds--title{
+      margin-left: 0;
+      margin-right: -20px;
+    }
+  }
+}

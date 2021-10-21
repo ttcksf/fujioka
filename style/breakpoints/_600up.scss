@@ -265,3 +265,24 @@ body {
     font-size: 40px;
   }
 }
+.merit__kinds{
+  padding: 50px 30px;
+}
+.merit__kinds--wrapper{
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.merit__kind{
+  .merit__kinds--title{
+    margin-left: -20px;
+  }
+  p{
+    font-size: 24px;
+  }
+  &:nth-child(2){
+    .merit__kinds--title{
+      margin-left: 0;
+      margin-right: -20px;
+    }
+  }
+}

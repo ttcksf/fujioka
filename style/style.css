@@ -598,6 +598,44 @@ textarea {
   margin-top: 10px;
 }
 
+.merit__kinds {
+  background: rgba(255, 100, 0, 0.05);
+  padding: 30px 10px;
+}
+
+.merit__kinds--wrapper {
+  background: #fff;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.merit__kind {
+  position: relative;
+  z-index: 2;
+}
+
+.merit__kind .merit__kinds--title {
+  margin-left: -10px;
+}
+
+.merit__kind .merit__kinds--title img {
+  width: 90%;
+}
+
+.merit__kind p span {
+  color: #F0A537;
+}
+
+.merit__kind:nth-child(2) .merit__kinds--title {
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.merit__kind:nth-child(2) .merit__kinds--title img {
+  display: block;
+  margin-left: auto;
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -732,6 +770,23 @@ textarea {
   }
   .merit__heading--wrapper h1 {
     font-size: 32px;
+  }
+  .merit__kinds {
+    padding: 40px 20px;
+  }
+  .merit__kinds--wrapper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .merit__kind .merit__kinds--title {
+    margin-left: -20px;
+  }
+  .merit__kind p {
+    font-size: 24px;
+  }
+  .merit__kind:nth-child(2) .merit__kinds--title {
+    margin-left: 0;
+    margin-right: -20px;
   }
 }
 
@@ -952,6 +1007,23 @@ textarea {
   }
   .merit__heading--wrapper h1 {
     font-size: 40px;
+  }
+  .merit__kinds {
+    padding: 50px 30px;
+  }
+  .merit__kinds--wrapper {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .merit__kind .merit__kinds--title {
+    margin-left: -20px;
+  }
+  .merit__kind p {
+    font-size: 24px;
+  }
+  .merit__kind:nth-child(2) .merit__kinds--title {
+    margin-left: 0;
+    margin-right: -20px;
   }
 }
 
