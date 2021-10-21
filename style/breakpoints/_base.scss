@@ -601,11 +601,12 @@ textarea {
 
 //company
 .company{
-  background: url("/image/company-building.png") no-repeat center center / cover;
-  padding-top: 50px;
-  padding-bottom: 30px;
+  
 }
 .company__heading{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: url("/image/company-building.png") no-repeat center center / cover;
   text-align: center;
   h1{
     margin: 0;
@@ -617,6 +618,37 @@ textarea {
     margin-top: 50px;
     img{
 
+    }
+  }
+}
+.company__data{
+  background: url("/image/green-bk.png") no-repeat center center / cover;
+}
+.company__data--wrapper{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h2{
+    margin: 0;
+    font-weight: 500;
+    padding: 0 1rem;
+    border-left: 4px solid $cBlue;
+    font-size: 16px;
+  }
+  p{
+    font-size: 16px;
+    margin: 0;
+    &.company__data--label{
+      margin: 0;
+    }
+  }
+  ul{
+    margin-left: 1rem;
+    padding-left: 0.2rem;
+	  list-style-type: disc;
+	  list-style-position: inside;
+    li{
+      list-style: outside;
+      font-size: 16px;
     }
   }
 }

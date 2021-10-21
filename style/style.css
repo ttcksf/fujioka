@@ -636,13 +636,10 @@ textarea {
   margin-left: auto;
 }
 
-.company {
-  background: url("/image/company-building.png") no-repeat center center/cover;
+.company__heading {
   padding-top: 50px;
   padding-bottom: 30px;
-}
-
-.company__heading {
+  background: url("/image/company-building.png") no-repeat center center/cover;
   text-align: center;
 }
 
@@ -655,6 +652,44 @@ textarea {
 
 .company__heading .company__heading--text {
   margin-top: 50px;
+}
+
+.company__data {
+  background: url("/image/green-bk.png") no-repeat center center/cover;
+}
+
+.company__data--wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.company__data--wrapper h2 {
+  margin: 0;
+  font-weight: 500;
+  padding: 0 1rem;
+  border-left: 4px solid #1E6EAF;
+  font-size: 16px;
+}
+
+.company__data--wrapper p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.company__data--wrapper p.company__data--label {
+  margin: 0;
+}
+
+.company__data--wrapper ul {
+  margin-left: 1rem;
+  padding-left: 0.2rem;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.company__data--wrapper ul li {
+  list-style: outside;
+  font-size: 16px;
 }
 
 @media (min-width: 480px) {
@@ -809,7 +844,7 @@ textarea {
     margin-left: 0;
     margin-right: -20px;
   }
-  .company {
+  .company__heading {
     padding-top: 60px;
     padding-bottom: 40px;
   }
@@ -818,6 +853,19 @@ textarea {
   }
   .company__heading .company__heading--text {
     margin-top: 60px;
+  }
+  .company__data--wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .company__data--wrapper h2 {
+    font-size: 24px;
+  }
+  .company__data--wrapper p {
+    font-size: 24px;
+  }
+  .company__data--wrapper ul li {
+    font-size: 24px;
   }
 }
 
@@ -1056,7 +1104,7 @@ textarea {
     margin-left: 0;
     margin-right: -20px;
   }
-  .company {
+  .company__heading {
     padding-top: 80px;
     padding-bottom: 50px;
   }
@@ -1065,6 +1113,22 @@ textarea {
   }
   .company__heading .company__heading--text {
     margin-top: 70px;
+  }
+  .company__data--wrapper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .company__data--wrapper h2 {
+    font-size: 32px;
+  }
+  .company__data--wrapper p {
+    font-size: 32px;
+  }
+  .company__data--wrapper ul {
+    padding-left: 1rem;
+  }
+  .company__data--wrapper ul li {
+    font-size: 32px;
   }
 }
 

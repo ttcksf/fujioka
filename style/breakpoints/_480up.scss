@@ -200,11 +200,9 @@ body {
 }
 
 //company
-.company{
+.company__heading{
   padding-top: 60px;
   padding-bottom: 40px;
-}
-.company__heading{
   h1{
     font-size: 64px;
   }
@@ -212,6 +210,21 @@ body {
     margin-top: 60px;
     img{
 
+    }
+  }
+}
+.company__data--wrapper{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 24px;
+  }
+  ul{
+    li{
+      font-size: 24px;
     }
   }
 }
