@@ -598,3 +598,25 @@ textarea {
     }
   }
 }
+
+//company
+.company{
+  background: url("/image/company-building.png") no-repeat center center / cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.company__heading{
+  text-align: center;
+  h1{
+    margin: 0;
+    color: $cBlue;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .company__heading--text{
+    margin-top: 50px;
+    img{
+
+    }
+  }
+}

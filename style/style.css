@@ -636,6 +636,27 @@ textarea {
   margin-left: auto;
 }
 
+.company {
+  background: url("/image/company-building.png") no-repeat center center/cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.company__heading {
+  text-align: center;
+}
+
+.company__heading h1 {
+  margin: 0;
+  color: #1E6EAF;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.company__heading .company__heading--text {
+  margin-top: 50px;
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -787,6 +808,16 @@ textarea {
   .merit__kind:nth-child(2) .merit__kinds--title {
     margin-left: 0;
     margin-right: -20px;
+  }
+  .company {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .company__heading h1 {
+    font-size: 64px;
+  }
+  .company__heading .company__heading--text {
+    margin-top: 60px;
   }
 }
 
@@ -1024,6 +1055,16 @@ textarea {
   .merit__kind:nth-child(2) .merit__kinds--title {
     margin-left: 0;
     margin-right: -20px;
+  }
+  .company {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .company__heading h1 {
+    font-size: 80px;
+  }
+  .company__heading .company__heading--text {
+    margin-top: 70px;
   }
 }
 
