@@ -573,6 +573,31 @@ textarea {
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
+.merit__heading {
+  width: 100%;
+  height: 250px;
+  background: #f1ae4b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.merit__heading--wrapper {
+  text-align: center;
+}
+
+.merit__heading--wrapper h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.merit__heading--wrapper img {
+  display: block;
+  margin-top: 10px;
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -701,6 +726,12 @@ textarea {
   .about__description--wrapper .about__description--point th img {
     width: 35px;
     margin-right: 10px;
+  }
+  .merit__heading {
+    height: 300px;
+  }
+  .merit__heading--wrapper h1 {
+    font-size: 32px;
   }
 }
 
@@ -915,6 +946,12 @@ textarea {
   .about__description--wrapper .about__description--point th img {
     width: 40px;
     margin-right: 10px;
+  }
+  .merit__heading {
+    height: 380px;
+  }
+  .merit__heading--wrapper h1 {
+    font-size: 40px;
   }
 }
 

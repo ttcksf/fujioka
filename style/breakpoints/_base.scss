@@ -538,3 +538,29 @@ textarea {
     }
   }
 }
+
+//merit
+.merit{
+
+}
+.merit__heading{
+  width: 100%;
+  height: 250px;
+  background: $cOrange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.merit__heading--wrapper{
+  text-align: center;
+  h1{
+    margin: 0;
+    color: $cWhite;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  img{
+    display: block;
+    margin-top: 10px;
+  }
+}
