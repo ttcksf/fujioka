@@ -695,7 +695,6 @@ textarea {
 .voice {
   width: 100%;
   height: auto;
-  padding-bottom: 30px;
   background-image: linear-gradient(180deg, transparent 96%, #c0c0c0 100%), linear-gradient(90deg, transparent 96%, #c0c0c0 100%);
   background-color: #fff;
   background-size: 15px 15px;
@@ -707,6 +706,7 @@ textarea {
   margin-top: -45px;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 20px;
 }
 
 .voice__kinds--image {
@@ -750,6 +750,51 @@ textarea {
 .voice__kind--title th img {
   display: inline-block;
   width: 100px;
+}
+
+.voice__example {
+  width: 100%;
+  background: #fff;
+  padding: 30px 15px;
+  border-top: 2px solid #C9ECE0;
+  border-bottom: 2px solid #C9ECE0;
+  position: relative;
+}
+
+.voice__example--wrapper {
+  background: #C9ECE0;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.voice__example--wrapper h2 {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-weight: 500;
+  color: #1E6EAF;
+  text-align: center;
+  font-size: 24px;
+}
+
+.voice__example--wrapper img {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.voice__example--wrapper p {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.voice__example--wrapper p span {
+  background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
 @media (min-width: 480px) {
@@ -946,6 +991,19 @@ textarea {
     width: 120px;
   }
   .voice__kind--title td span {
+    font-size: 24px;
+  }
+  .voice__example {
+    padding: 40px;
+  }
+  .voice__example--wrapper h2 {
+    font-size: 32px;
+    top: 2%;
+  }
+  .voice__example--wrapper p {
+    font-size: 24px;
+  }
+  .voice__example--wrapper p span {
     font-size: 24px;
   }
 }
@@ -1215,6 +1273,7 @@ textarea {
     margin-top: -200px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 30px;
   }
   .voice__kind {
     margin-top: 200px;
@@ -1232,6 +1291,19 @@ textarea {
     width: 150px;
   }
   .voice__kind--title td span {
+    font-size: 32px;
+  }
+  .voice__example {
+    padding: 60px;
+  }
+  .voice__example--wrapper h2 {
+    font-size: 40px;
+    top: 2%;
+  }
+  .voice__example--wrapper p {
+    font-size: 32px;
+  }
+  .voice__example--wrapper p span {
     font-size: 32px;
   }
 }
