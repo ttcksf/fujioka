@@ -353,7 +353,8 @@ textarea {
 .needs__A {
   width: 100%;
   height: auto;
-  background-image: linear-gradient(180deg, transparent 96%, #c0c0c0 100%),linear-gradient(90deg,  transparent 96%, #c0c0c0 100%);
+  background-image: linear-gradient(180deg, transparent 96%, #c0c0c0 100%),
+    linear-gradient(90deg, transparent 96%, #c0c0c0 100%);
   background-color: #fff;
   background-size: 15px 15px;
   padding: 10px 0;
@@ -386,13 +387,13 @@ textarea {
 }
 
 //contact
-.contact{
-  background: #E4F5EF;
+.contact {
+  background: #e4f5ef;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
-.contact__heading{
+.contact__heading {
   position: relative;
   padding: 7px 10px;
   max-width: 100%;
@@ -401,7 +402,7 @@ textarea {
   font-size: 19px;
   border-radius: 30px;
   box-shadow: 1px 0 5px #c0c0c0;
-  &::before{
+  &::before {
     content: "";
     position: absolute;
     top: 100%;
@@ -411,7 +412,7 @@ textarea {
     border-top: 15px solid $cWhite;
   }
 }
-.contact__btn--green{
+.contact__btn--green {
   color: $cWhite;
   background: $cGreen;
   font-size: 16px;
@@ -419,11 +420,10 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.contact__btn--date{
+.contact__btn--date {
   font-size: 16px;
-  
 }
-.contact__btn--orange{
+.contact__btn--orange {
   border-radius: 5px;
   color: $cWhite;
   font-size: 16px;
@@ -432,17 +432,16 @@ textarea {
   padding-bottom: 10px;
 }
 //about
-.about{
-
+.about {
 }
-.about__company{
+.about__company {
   width: 100%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: url("/image/third-visual.png") no-repeat center center / cover;
-  h1{
+  h1 {
     margin: 0;
     text-align: center;
     color: $cBlue;
@@ -451,27 +450,25 @@ textarea {
     font-weight: 500;
   }
 }
-.about__description{
-  background: #D2E2EF;
+.about__description {
+  background: #d2e2ef;
   padding: 10px;
 }
-.about__description--wrapper{
+.about__description--wrapper {
   background: $cWhite;
   padding: 10px;
   border-radius: 5px;
-  img{
-
+  img {
   }
-  p{
-
+  p {
   }
-  .about__description--merker{
-    background:linear-gradient(transparent 60%, #ff6 60%);
+  .about__description--merker {
+    background: linear-gradient(transparent 60%, #ff6 60%);
   }
-  .about__description--blue{
+  .about__description--blue {
     color: $cBlue;
   }
-  .about__description--50{
+  .about__description--50 {
     border: 3px solid #ff6;
     font-weight: 300;
     width: 100%;
@@ -481,37 +478,37 @@ textarea {
     justify-content: center;
     background: url("/image/50-bk.png") no-repeat center center / cover;
   }
-  .about__description--50__wrapper{
+  .about__description--50__wrapper {
     text-align: center;
-    p{
+    p {
       color: $cWhite;
       margin: 0;
-      img{
+      img {
         display: inline-block;
         width: 60px;
       }
     }
-    & p:nth-child(3){
+    & p:nth-child(3) {
       margin-top: 10px;
       font-weight: 500;
       border-bottom: 3px solid $cWhite;
       display: inline-block;
       font-size: 20px;
     }
-    & p:nth-child(4){
+    & p:nth-child(4) {
       font-size: 20px;
     }
   }
-  .about__description--arrow{
+  .about__description--arrow {
     display: flex;
     justify-content: center;
     position: relative;
-    img{
+    img {
       margin-top: 10px;
       display: inline-block;
       width: 100px;
     }
-    p{
+    p {
       position: absolute;
       top: calc(50% - 10px);
       left: 50%;
@@ -520,30 +517,29 @@ textarea {
       color: $cWhite;
     }
   }
-  .about__description--point{
+  .about__description--point {
     margin: -10px auto 0;
-    background: #DFDFDF;
+    background: #dfdfdf;
     padding: 10px;
-    th{
-      img{
+    th {
+      img {
         display: inline-block;
         width: 30px;
         margin-right: 5px;
       }
     }
-    td{
-      span{
-        background:linear-gradient(transparent 60%, #ff6 60%);
+    td {
+      span {
+        background: linear-gradient(transparent 60%, #ff6 60%);
       }
     }
   }
 }
 
 //merit
-.merit{
-
+.merit {
 }
-.merit__heading{
+.merit__heading {
   width: 100%;
   height: 250px;
   background: $cOrange;
@@ -551,47 +547,47 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.merit__heading--wrapper{
+.merit__heading--wrapper {
   text-align: center;
-  h1{
+  h1 {
     margin: 0;
     color: $cWhite;
     font-size: 24px;
     font-weight: 500;
   }
-  img{
+  img {
     display: block;
     margin-top: 10px;
   }
 }
-.merit__kinds{
-  background: rgba(#FF6400, 0.05);
+.merit__kinds {
+  background: rgba(#ff6400, 0.05);
   padding: 30px 10px;
 }
-.merit__kinds--wrapper{
+.merit__kinds--wrapper {
   background: $cWhite;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-.merit__kind{
+.merit__kind {
   position: relative;
   z-index: 2;
-  .merit__kinds--title{
+  .merit__kinds--title {
     margin-left: -10px;
-    img{
+    img {
       width: 90%;
     }
   }
-  p{
-    span{
-      color: #F0A537;
+  p {
+    span {
+      color: #f0a537;
     }
   }
-  &:nth-child(2){
-    .merit__kinds--title{
+  &:nth-child(2) {
+    .merit__kinds--title {
       margin-left: 0;
       margin-right: -10px;
-      img{
+      img {
         display: block;
         margin-left: auto;
       }
@@ -600,55 +596,111 @@ textarea {
 }
 
 //company
-.company{
-  
+.company {
 }
-.company__heading{
+.company__heading {
   padding-top: 50px;
   padding-bottom: 30px;
   background: url("/image/company-building.png") no-repeat center center / cover;
   text-align: center;
-  h1{
+  h1 {
     margin: 0;
     color: $cBlue;
     font-weight: 500;
     font-size: 40px;
   }
-  .company__heading--text{
+  .company__heading--text {
     margin-top: 50px;
-    img{
-
+    img {
     }
   }
 }
-.company__data{
+.company__data {
   background: url("/image/green-bk.png") no-repeat center center / cover;
 }
-.company__data--wrapper{
+.company__data--wrapper {
   padding-top: 20px;
   padding-bottom: 20px;
-  h2{
+  h2 {
     margin: 0;
     font-weight: 500;
     padding: 0 1rem;
     border-left: 4px solid $cBlue;
     font-size: 16px;
   }
-  p{
+  p {
     font-size: 16px;
     margin: 0;
-    &.company__data--label{
+    &.company__data--label {
       margin: 0;
     }
   }
-  ul{
+  ul {
     margin-left: 1rem;
     padding-left: 0.2rem;
-	  list-style-type: disc;
-	  list-style-position: inside;
-    li{
+    list-style-type: disc;
+    list-style-position: inside;
+    li {
       list-style: outside;
       font-size: 16px;
+    }
+  }
+}
+
+//voice
+.voice {
+  width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+  background-image: linear-gradient(180deg, transparent 96%, #c0c0c0 100%),
+    linear-gradient(90deg, transparent 96%, #c0c0c0 100%);
+  background-color: #fff;
+  background-size: 15px 15px;
+}
+.voice__kinds--wrapper {
+  border: 2px solid #C9ECE0;
+  background: $cWhite;
+  margin-top: -45px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.voice__kinds--image{
+  text-align: center;
+  img {
+    display: block;
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+  }
+}
+.voice__kinds {
+  padding-bottom: 20px;
+}
+.voice__kind {
+  margin-top: 50px;
+  p{
+    margin: 0 auto;
+    width: 90%;
+  }
+  span.voice__kind--merker{
+    background: linear-gradient(transparent 60%, #ff6 60%);
+  }
+  &:last-child{
+    margin-bottom: 20px;
+  }
+}
+.voice__kind--title{
+  margin: 0 auto 10px;
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  th{
+    img{
+      display: inline-block;
+      width: 100px;
+    }
+  }
+  td{
+    span{
     }
   }
 }

@@ -228,3 +228,31 @@ body {
     }
   }
 }
+
+//voice
+.voice__kinds--wrapper {
+  margin-top: -100px;
+}
+.voice__kind {
+  margin-top: 100px;
+  p{
+    font-size: 24px;
+  }
+  span.voice__kind--merker{
+    font-size: 24px;
+  }
+}
+
+.voice__kind--title{
+  border-spacing: 30px 0;
+  th{
+    img{
+      width: 120px;
+    }
+  }
+  td{
+    span{
+      font-size: 24px;
+    }
+  }
+}
