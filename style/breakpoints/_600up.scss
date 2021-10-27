@@ -156,13 +156,17 @@ body {
 }
 
 .needs__Q--description {
-  padding: 10px 35px;
-  p {
-    font-size: 20px;
-    text-indent: -1.5rem;
-    &::before {
-      width: 30px;
-      height: 30px;
+  padding: 35px;
+  .needs__Q--description__p {
+    display: flex;
+    p{
+      margin: -10px 0 25px 10px;
+      font-size: 32px;
+    }
+    img{
+      display: inline-block;
+      width: 35px;
+      height: 100%;
     }
   }
 }

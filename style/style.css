@@ -350,7 +350,7 @@ textarea {
 
 .needs__Q--description {
   background: #fff;
-  padding: 10px 25px;
+  padding: 25px;
   position: relative;
   margin-bottom: 20px;
   filter: drop-shadow(0px 3px 5px #c0c0c0);
@@ -366,18 +366,18 @@ textarea {
   border-top: 30px solid #fff;
 }
 
-.needs__Q--description p {
-  font-size: 16px;
-  text-indent: -1rem;
+.needs__Q--description .needs__Q--description__p {
+  display: flex;
 }
 
-.needs__Q--description p::before {
+.needs__Q--description .needs__Q--description__p p {
+  margin: -5px 0 5px 5px;
+}
+
+.needs__Q--description .needs__Q--description__p img {
   display: inline-block;
-  content: "";
-  background: url("../../image/check-black.png");
-  background-size: cover;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 100%;
 }
 
 .needs__A {
@@ -860,16 +860,17 @@ textarea {
   .needs__Q--heading h2 span.dot {
     font-size: 36px;
   }
-  .needs__Q--description {
-    padding: 10px 25px;
+  .needs__Q--description .needs__Q--description__p {
+    display: flex;
   }
-  .needs__Q--description p {
-    font-size: 18px;
-    text-indent: -1rem;
+  .needs__Q--description .needs__Q--description__p p {
+    margin: -8px 0 15px 5px;
+    font-size: 24px;
   }
-  .needs__Q--description p::before {
-    width: 25px;
-    height: 25px;
+  .needs__Q--description .needs__Q--description__p img {
+    display: inline-block;
+    width: 30px;
+    height: 100%;
   }
   .needs__A--description tr td span {
     font-size: 30px;
@@ -1147,15 +1148,19 @@ textarea {
     font-size: 48px;
   }
   .needs__Q--description {
-    padding: 10px 35px;
+    padding: 35px;
   }
-  .needs__Q--description p {
-    font-size: 20px;
-    text-indent: -1.5rem;
+  .needs__Q--description .needs__Q--description__p {
+    display: flex;
   }
-  .needs__Q--description p::before {
-    width: 30px;
-    height: 30px;
+  .needs__Q--description .needs__Q--description__p p {
+    margin: -10px 0 25px 10px;
+    font-size: 32px;
+  }
+  .needs__Q--description .needs__Q--description__p img {
+    display: inline-block;
+    width: 35px;
+    height: 100%;
   }
   .needs__A--description tr td span {
     font-size: 40px;

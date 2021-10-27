@@ -333,7 +333,7 @@ textarea {
 }
 .needs__Q--description {
   background: $cWhite;
-  padding: 10px 25px;
+  padding: 25px;
   position: relative;
   margin-bottom: 20px;
   filter: drop-shadow(0px 3px 5px #c0c0c0);
@@ -346,16 +346,15 @@ textarea {
     border: 40px solid transparent;
     border-top: 30px solid $cWhite;
   }
-  p {
-    font-size: 16px;
-    text-indent: -1rem;
-    &::before {
+  .needs__Q--description__p {
+    display: flex;
+    p{
+      margin: -5px 0 5px 5px;
+    }
+    img{
       display: inline-block;
-      content: "";
-      background: url("../../image/check-black.png");
-      background-size: cover;
-      width: 20px;
-      height: 20px;
+      width: 25px;
+      height: 100%;
     }
   }
 }
