@@ -529,7 +529,7 @@ textarea {
 
 .about__description--wrapper .about__description--50__wrapper p img {
   display: inline-block;
-  width: 60px;
+  width: 100px;
 }
 
 .about__description--wrapper .about__description--50__wrapper p:nth-child(3) {
@@ -911,7 +911,7 @@ textarea {
     font-size: 24px;
   }
   .about__description--wrapper .about__description--50__wrapper p img {
-    width: 100px;
+    width: 120px;
   }
   .about__description--wrapper .about__description--50__wrapper p:nth-child(3) {
     margin-top: 15px;
@@ -1197,7 +1197,7 @@ textarea {
     font-size: 32px;
   }
   .about__description--wrapper .about__description--50__wrapper p img {
-    width: 120px;
+    width: 160px;
   }
   .about__description--wrapper .about__description--50__wrapper p:nth-child(3) {
     margin-top: 20px;
