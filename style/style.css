@@ -805,6 +805,218 @@ textarea {
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
+.flow {
+  overflow: hidden;
+}
+
+.flow__heading {
+  background: #1E6EAF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.flow__heading h1 {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.triangle {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  padding-top: 70px;
+}
+
+.triangle__heading {
+  display: flex;
+  align-items: center;
+}
+
+.triangle__heading img {
+  display: inline-block;
+  margin-right: 10px;
+  width: 80px;
+  max-height: 80px;
+}
+
+.triangle__heading h2 {
+  color: #fff24e;
+  margin: 0;
+  font-size: 18px;
+}
+
+.triangle__text {
+  padding: 10px 0;
+}
+
+.triangle__text p {
+  color: #fff;
+  margin: 0;
+}
+
+.triangle01 {
+  background: #4084BB;
+  padding-top: 20px;
+}
+
+.triangle01:before, .triangle01:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.triangle01:before {
+  bottom: -50px;
+  left: -8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle01:after {
+  bottom: -48px;
+  left: -8px;
+  border-style: solid;
+  border-color: #4084BB transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle02 {
+  background: #5692C3;
+}
+
+.triangle02:before, .triangle02:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.triangle02:before {
+  bottom: -50px;
+  left: -8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle02:after {
+  bottom: -48px;
+  left: -8px;
+  border-style: solid;
+  border-color: #5692C3 transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle03 {
+  background: #6DA1CB;
+}
+
+.triangle03:before, .triangle03:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.triangle03:before {
+  bottom: -50px;
+  left: -8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle03:after {
+  bottom: -48px;
+  left: -8px;
+  border-style: solid;
+  border-color: #6DA1CB transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle04 {
+  background: #83AFD3;
+}
+
+.triangle04:before, .triangle04:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.triangle04:before {
+  bottom: -50px;
+  left: -8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle04:after {
+  bottom: -48px;
+  left: -8px;
+  border-style: solid;
+  border-color: #83AFD3 transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle05 {
+  background: #9ABEDB;
+}
+
+.triangle05:before, .triangle05:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.triangle05:before {
+  bottom: -50px;
+  left: -8px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle05:after {
+  bottom: -48px;
+  left: -8px;
+  border-style: solid;
+  border-color: #9ABEDB transparent transparent transparent;
+  border-width: 50px 52vw 0 52vw;
+  z-index: 10;
+}
+
+.triangle06 {
+  background: #B0CCE3;
+}
+
+.triangle06 .triangle__text p {
+  color: #1E6EAF;
+}
+
 @media (min-width: 480px) {
   /*ベーススタイル*/
   body {
@@ -1014,6 +1226,91 @@ textarea {
   }
   .voice__example--wrapper p span {
     font-size: 24px;
+  }
+  .flow__heading {
+    padding: 45px 15px;
+  }
+  .flow__heading h1 {
+    font-size: 54px;
+  }
+  .triangle {
+    height: 450px;
+    padding-top: 85px;
+  }
+  .triangle__heading img {
+    margin-right: 20px;
+    width: 100px;
+    max-height: 100px;
+  }
+  .triangle__heading h2 {
+    font-size: 26px;
+  }
+  .triangle__text {
+    padding: 20px 0;
+  }
+  .triangle__text p {
+    font-size: 24px;
+  }
+  .triangle01 {
+    padding-top: 30px;
+  }
+  .triangle01:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle01:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle02 {
+    background: #5692C3;
+  }
+  .triangle02:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle02:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle03 {
+    background: #6DA1CB;
+  }
+  .triangle03:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle03:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle04 {
+    background: #83AFD3;
+  }
+  .triangle04:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle04:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle05 {
+    background: #9ABEDB;
+  }
+  .triangle05:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle05:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle06 {
+    background: #B0CCE3;
+  }
+  .triangle06 .triangle__text p {
+    color: #1E6EAF;
   }
 }
 
@@ -1308,6 +1605,91 @@ textarea {
   }
   .voice__example--wrapper p span {
     font-size: 32px;
+  }
+  .flow__heading {
+    padding: 60px 20px;
+  }
+  .flow__heading h1 {
+    font-size: 80px;
+  }
+  .triangle {
+    height: 630px;
+    padding-top: 100px;
+  }
+  .triangle__heading img {
+    margin-right: 30px;
+    width: 140px;
+    max-height: 140px;
+  }
+  .triangle__heading h2 {
+    font-size: 40px;
+  }
+  .triangle__text {
+    padding: 30px 0;
+  }
+  .triangle__text p {
+    font-size: 32px;
+  }
+  .triangle01 {
+    padding-top: 50px;
+  }
+  .triangle01:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle01:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle02 {
+    background: #5692C3;
+  }
+  .triangle02:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle02:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle03 {
+    background: #6DA1CB;
+  }
+  .triangle03:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle03:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle04 {
+    background: #83AFD3;
+  }
+  .triangle04:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle04:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle05 {
+    background: #9ABEDB;
+  }
+  .triangle05:before {
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle05:after {
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  .triangle06 {
+    background: #B0CCE3;
+  }
+  .triangle06 .triangle__text p {
+    color: #1E6EAF;
   }
 }
 

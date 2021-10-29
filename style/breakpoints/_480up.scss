@@ -275,3 +275,94 @@ body {
     }
   }
 }
+
+//flow
+.flow__heading{
+  padding: 45px 15px;
+  h1{
+    font-size: 54px;
+  }
+}
+.triangle{
+  height: 450px;
+  padding-top: 85px;
+}
+.triangle__heading{
+  img{
+    margin-right: 20px;
+    width: 100px;
+    max-height: 100px;
+  }
+  h2{
+    font-size: 26px;
+  }
+}
+.triangle__text{
+  padding: 20px 0;
+  p{
+    font-size: 24px;
+  }
+}
+.triangle01{
+  padding-top: 30px;
+  &:before{
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  &:after{
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+}
+.triangle02{
+  background: #5692C3;
+  &:before{
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  &:after{
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+}
+.triangle03{
+  background: #6DA1CB;
+  &:before{
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  &:after{
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+}
+.triangle04{
+  background: #83AFD3;
+  &:before{
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  &:after{
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+}
+.triangle05{
+  background: #9ABEDB;
+  &:before{
+    bottom: -70px;
+    border-width: 70px 52vw 0 52vw;
+  }
+  &:after{
+    bottom: -68px;
+    border-width: 70px 52vw 0 52vw;
+  }
+}
+.triangle06{
+  background: #B0CCE3;
+  .triangle__text{
+    p{
+      color: $cBlue;
+    }
+  }
+}
