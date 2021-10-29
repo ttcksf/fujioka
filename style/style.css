@@ -117,6 +117,7 @@ textarea {
 
 .header__left--tel a {
   color: #003A6A;
+  font-weight: 700;
 }
 
 .header__left--tel a img {
@@ -218,7 +219,7 @@ textarea {
 
 .main__visual--content {
   width: 100%;
-  background: linear-gradient(to bottom, #1E6EAF, #003A6A 30%, #1E6EAF);
+  background: linear-gradient(to bottom, rgba(30, 110, 175, 0.75), rgba(0, 58, 106, 0.75) 30%, rgba(30, 110, 175, 0.75));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -333,7 +334,7 @@ textarea {
 
 .needs__Q--heading h2 span.dot {
   color: #003A6A;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 30px;
   display: inline-block;
   position: relative;
@@ -417,6 +418,7 @@ textarea {
   width: calc(100% - 80px);
   color: #1E6EAF;
   font-size: 20px;
+  font-weight: 700;
   background: linear-gradient(transparent 60%, #ff6 60%);
 }
 
@@ -435,6 +437,7 @@ textarea {
   background: #fff;
   font-size: 19px;
   border-radius: 30px;
+  font-weight: 700;
   box-shadow: 1px 0 5px #c0c0c0;
 }
 
@@ -455,10 +458,12 @@ textarea {
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 
 .contact__btn--date {
   font-size: 16px;
+  font-weight: 700;
 }
 
 .contact__btn--orange {
@@ -468,6 +473,7 @@ textarea {
   background: #f1ae4b;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 
 .about__company {
@@ -485,7 +491,7 @@ textarea {
   color: #1E6EAF;
   font-size: 32px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .about__description {
@@ -505,6 +511,7 @@ textarea {
 
 .about__description--wrapper .about__description--blue {
   color: #1E6EAF;
+  font-weight: 700;
 }
 
 .about__description--wrapper .about__description--50 {
@@ -561,7 +568,7 @@ textarea {
   top: calc(50% - 10px);
   left: 50%;
   transform: translate(-50%, -50%);
-  font-weight: 300;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -579,6 +586,7 @@ textarea {
 
 .about__description--wrapper .about__description--point td span {
   background: linear-gradient(transparent 60%, #ff6 60%);
+  font-weight: 700;
 }
 
 .merit__heading {
@@ -598,7 +606,7 @@ textarea {
   margin: 0;
   color: #fff;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .merit__heading--wrapper img {
@@ -632,6 +640,7 @@ textarea {
 
 .merit__kind p span {
   color: #f0a537;
+  font-weight: 700;
 }
 
 .merit__kind:nth-child(2) .merit__kinds--title {
@@ -654,7 +663,7 @@ textarea {
 .company__heading h1 {
   margin: 0;
   color: #1E6EAF;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -673,7 +682,7 @@ textarea {
 
 .company__data--wrapper h2 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0 1rem;
   border-left: 4px solid #1E6EAF;
   font-size: 16px;
@@ -743,6 +752,7 @@ textarea {
 
 .voice__kind span.voice__kind--merker {
   background: linear-gradient(transparent 60%, #ff6 60%);
+  font-weight: 700;
 }
 
 .voice__kind:last-child {
@@ -758,6 +768,10 @@ textarea {
 .voice__kind--title th img {
   display: inline-block;
   width: 100px;
+}
+
+.voice__kind--title td span {
+  font-weight: 700;
 }
 
 .voice__example {
@@ -803,6 +817,7 @@ textarea {
 
 .voice__example--wrapper p span {
   background: linear-gradient(transparent 60%, #ff6 60%);
+  font-weight: 700;
 }
 
 .flow {
@@ -822,13 +837,6 @@ textarea {
   margin: 0;
   text-align: center;
   line-height: 1.2;
-}
-
-.triangle {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  padding-top: 70px;
 }
 
 .triangle__heading {
@@ -856,6 +864,13 @@ textarea {
 .triangle__text p {
   color: #fff;
   margin: 0;
+}
+
+.triangle {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  padding-top: 70px;
 }
 
 .triangle01 {

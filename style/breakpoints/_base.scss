@@ -118,6 +118,7 @@ textarea {
   margin: 0;
   a {
     color: $cBlueBk;
+    font-weight: 700;
     img {
       display: inline-block;
       width: 24px;
@@ -215,7 +216,7 @@ textarea {
 }
 .main__visual--content {
   width: 100%;
-  background: linear-gradient(to bottom, $cBlue, $cBlueBk 30%, $cBlue);
+  background: linear-gradient(to bottom, rgba(30,110,175,0.75), rgba(0,58,106,0.75) 30%, rgba(30,110,175,0.75));
   display: flex;
   align-items: center;
   justify-content: center;
@@ -316,7 +317,7 @@ textarea {
     }
     span.dot {
       color: $cBlueBk;
-      font-weight: 500;
+      font-weight: 700;
       font-size: 30px;
       display: inline-block;
       position: relative;
@@ -388,6 +389,7 @@ textarea {
         width: calc(100% - 80px);
         color: $cBlue;
         font-size: 20px;
+        font-weight: 700;
         background: linear-gradient(transparent 60%, #ff6 60%);
       }
     }
@@ -409,6 +411,7 @@ textarea {
   background: $cWhite;
   font-size: 19px;
   border-radius: 30px;
+  font-weight: 700;
   box-shadow: 1px 0 5px #c0c0c0;
   &::before {
     content: "";
@@ -427,9 +430,11 @@ textarea {
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 .contact__btn--date {
   font-size: 16px;
+  font-weight: 700;
 }
 .contact__btn--orange {
   border-radius: 5px;
@@ -438,6 +443,7 @@ textarea {
   background: $cOrange;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-weight: 700;
 }
 //about
 .about {
@@ -455,7 +461,7 @@ textarea {
     color: $cBlue;
     font-size: 32px;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 .about__description {
@@ -475,6 +481,7 @@ textarea {
   }
   .about__description--blue {
     color: $cBlue;
+    font-weight: 700;
   }
   .about__description--50 {
     border: 3px solid #ff6;
@@ -521,7 +528,7 @@ textarea {
       top: calc(50% - 10px);
       left: 50%;
       transform: translate(-50%, -50%);
-      font-weight: 300;
+      font-weight: 700;
       color: $cWhite;
     }
   }
@@ -539,6 +546,7 @@ textarea {
     td {
       span {
         background: linear-gradient(transparent 60%, #ff6 60%);
+        font-weight: 700;
       }
     }
   }
@@ -561,7 +569,7 @@ textarea {
     margin: 0;
     color: $cWhite;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
   }
   img {
     display: block;
@@ -589,6 +597,7 @@ textarea {
   p {
     span {
       color: #f0a537;
+      font-weight: 700;
     }
   }
   &:nth-child(2) {
@@ -614,7 +623,7 @@ textarea {
   h1 {
     margin: 0;
     color: $cBlue;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 40px;
   }
   .company__heading--text {
@@ -631,7 +640,7 @@ textarea {
   padding-bottom: 20px;
   h2 {
     margin: 0;
-    font-weight: 500;
+    font-weight: 700;
     padding: 0 1rem;
     border-left: 4px solid $cBlue;
     font-size: 16px;
@@ -692,6 +701,7 @@ textarea {
   }
   span.voice__kind--merker {
     background: linear-gradient(transparent 60%, #ff6 60%);
+    font-weight: 700;
   }
   &:last-child {
     margin-bottom: 20px;
@@ -709,6 +719,7 @@ textarea {
   }
   td {
     span {
+      font-weight: 700;
     }
   }
 }
@@ -749,6 +760,7 @@ textarea {
     width: 90%;
     span {
       background: linear-gradient(transparent 60%, #ff6 60%);
+      font-weight: 700;
     }
   }
 }
@@ -771,12 +783,7 @@ textarea {
     line-height: 1.2;
   }
 }
-.triangle{
-  position: relative;
-  width: 100%;
-  height: 350px;
-  padding-top: 70px;
-}
+
 .triangle__heading{
   display: flex;
   align-items: center;
@@ -798,6 +805,12 @@ textarea {
     color: $cWhite;
     margin: 0;
   }
+}
+.triangle{
+  position: relative;
+  width: 100%;
+  height: 350px;
+  padding-top: 70px;
 }
 .triangle01{
   background: #4084BB;
