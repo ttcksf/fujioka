@@ -474,3 +474,23 @@ body {
     font-size: 32px;
   }
 }
+.FAQ__img {
+  padding: 50px 0;
+}
+.FAQ__img--wrapper {
+  h2 {
+    font-size: 40px;
+    margin: 30px 0 50px 0;
+    padding: 0 30px;
+    &::before {
+      height: 100px;
+    }
+    &::after {
+      height: 100px;
+    }
+  }
+  p {
+    font-size: 40px;
+    margin-left: 20px;
+  }
+}

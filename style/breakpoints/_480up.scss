@@ -46,7 +46,7 @@ body {
     }
   }
 }
-.needs__Q{
+.needs__Q {
   padding-bottom: 1px;
 }
 .needs__Q--lead {
@@ -54,7 +54,7 @@ body {
     width: 45px;
     height: 110px;
   }
-  & > img:last-child{
+  & > img:last-child {
     width: 39px;
     height: 114px;
   }
@@ -63,7 +63,6 @@ body {
   h2 {
     font-size: 24px;
     &::before {
-      
       width: 25px;
       height: 25px;
     }
@@ -75,11 +74,11 @@ body {
 .needs__Q--description {
   .needs__Q--description__p {
     display: flex;
-    p{
+    p {
       margin: -8px 0 15px 5px;
       font-size: 24px;
     }
-    img{
+    img {
       display: inline-block;
       width: 30px;
       height: 100%;
@@ -98,72 +97,71 @@ body {
 }
 
 //contact
-.contact{
+.contact {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.contact__heading{
+.contact__heading {
   font-size: 30px;
 }
-.contact__btn--green{
+.contact__btn--green {
   font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.contact__btn--date{
+.contact__btn--date {
   font-size: 24px;
 }
-.contact__btn--orange{
+.contact__btn--orange {
   font-size: 24px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 //about
-.about{
-
+.about {
 }
-.about__company{
+.about__company {
   height: 400px;
-  h1{
+  h1 {
     font-size: 56px;
   }
 }
 
-.about__description--wrapper{
+.about__description--wrapper {
   font-size: 24px;
-  .about__description--50{
+  .about__description--50 {
     height: 300px;
   }
-  .about__description--50__wrapper{
-    p{
+  .about__description--50__wrapper {
+    p {
       font-size: 24px;
-      img{
+      img {
         width: 120px;
       }
     }
-    & p:nth-child(3){
+    & p:nth-child(3) {
       margin-top: 15px;
       font-size: 32px;
     }
-    & p:nth-child(4){
+    & p:nth-child(4) {
       font-size: 32px;
     }
   }
-  .about__description--arrow{
-    img{
+  .about__description--arrow {
+    img {
       width: 140px;
     }
-    p{
+    p {
       font-size: 20px;
       top: calc(40% - 10px);
       transform: translate(-50%, -60%);
     }
   }
-  .about__description--point{
+  .about__description--point {
     font-size: 24px;
-    th{
-      img{
+    th {
+      img {
         width: 35px;
         margin-right: 10px;
       }
@@ -172,30 +170,30 @@ body {
 }
 
 //merit
-.merit__heading{
+.merit__heading {
   height: 300px;
 }
-.merit__heading--wrapper{
-  h1{
+.merit__heading--wrapper {
+  h1 {
     font-size: 32px;
   }
 }
-.merit__kinds{
+.merit__kinds {
   padding: 40px 20px;
 }
-.merit__kinds--wrapper{
+.merit__kinds--wrapper {
   padding-top: 30px;
   padding-bottom: 50px;
 }
-.merit__kind{
-  .merit__kinds--title{
+.merit__kind {
+  .merit__kinds--title {
     margin-left: -20px;
   }
-  p{
+  p {
     font-size: 24px;
   }
-  &:nth-child(2){
-    .merit__kinds--title{
+  &:nth-child(2) {
+    .merit__kinds--title {
       margin-left: 0;
       margin-right: -20px;
     }
@@ -203,30 +201,29 @@ body {
 }
 
 //company
-.company__heading{
+.company__heading {
   padding-top: 60px;
   padding-bottom: 40px;
-  h1{
+  h1 {
     font-size: 64px;
   }
-  .company__heading--text{
+  .company__heading--text {
     margin-top: 60px;
-    img{
-
+    img {
     }
   }
 }
-.company__data--wrapper{
+.company__data--wrapper {
   padding-top: 30px;
   padding-bottom: 30px;
-  h2{
+  h2 {
     font-size: 24px;
   }
-  p{
+  p {
     font-size: 24px;
   }
-  ul{
-    li{
+  ul {
+    li {
       font-size: 24px;
     }
   }
@@ -238,156 +235,174 @@ body {
 }
 .voice__kind {
   margin-top: 100px;
-  p{
+  p {
     font-size: 24px;
   }
-  span.voice__kind--merker{
+  span.voice__kind--merker {
     font-size: 24px;
   }
 }
 
-.voice__kind--title{
+.voice__kind--title {
   border-spacing: 30px 0;
-  th{
-    img{
+  th {
+    img {
       width: 120px;
     }
   }
-  td{
-    span{
+  td {
+    span {
       font-size: 24px;
     }
   }
 }
-.voice__example{
+.voice__example {
   padding: 40px;
-
 }
-.voice__example--wrapper{
-  h2{
+.voice__example--wrapper {
+  h2 {
     font-size: 32px;
     top: 2%;
   }
-  p{
+  p {
     font-size: 24px;
-    span{
+    span {
       font-size: 24px;
     }
   }
 }
 
 //flow
-.flow__heading{
+.flow__heading {
   padding: 45px 15px;
-  h1{
+  h1 {
     font-size: 54px;
   }
 }
-.triangle{
+.triangle {
   height: 450px;
   padding-top: 85px;
 }
-.triangle__heading{
-  img{
+.triangle__heading {
+  img {
     margin-right: 20px;
     width: 100px;
     max-height: 100px;
   }
-  h2{
+  h2 {
     font-size: 26px;
   }
 }
-.triangle__text{
+.triangle__text {
   padding: 20px 0;
-  p{
+  p {
     font-size: 24px;
   }
 }
-.triangle01{
+.triangle01 {
   padding-top: 30px;
-  &:before{
+  &:before {
     bottom: -70px;
     border-width: 70px 52vw 0 52vw;
   }
-  &:after{
+  &:after {
     bottom: -68px;
     border-width: 70px 52vw 0 52vw;
   }
 }
-.triangle02{
-  background: #5692C3;
-  &:before{
+.triangle02 {
+  background: #5692c3;
+  &:before {
     bottom: -70px;
     border-width: 70px 52vw 0 52vw;
   }
-  &:after{
+  &:after {
     bottom: -68px;
     border-width: 70px 52vw 0 52vw;
   }
 }
-.triangle03{
-  background: #6DA1CB;
-  &:before{
+.triangle03 {
+  background: #6da1cb;
+  &:before {
     bottom: -70px;
     border-width: 70px 52vw 0 52vw;
   }
-  &:after{
+  &:after {
     bottom: -68px;
     border-width: 70px 52vw 0 52vw;
   }
 }
-.triangle04{
-  background: #83AFD3;
-  &:before{
+.triangle04 {
+  background: #83afd3;
+  &:before {
     bottom: -70px;
     border-width: 70px 52vw 0 52vw;
   }
-  &:after{
+  &:after {
     bottom: -68px;
     border-width: 70px 52vw 0 52vw;
   }
 }
-.triangle05{
-  background: #9ABEDB;
-  &:before{
+.triangle05 {
+  background: #9abedb;
+  &:before {
     bottom: -70px;
     border-width: 70px 52vw 0 52vw;
   }
-  &:after{
+  &:after {
     bottom: -68px;
     border-width: 70px 52vw 0 52vw;
   }
 }
-.triangle06{
-  background: #B0CCE3;
-  .triangle__text{
-    p{
+.triangle06 {
+  background: #b0cce3;
+  .triangle__text {
+    p {
       color: $cBlue;
     }
   }
 }
 
 //FAQ
-.FAQ__heading{
-  h1{
+.FAQ__heading {
+  h1 {
     font-size: 54px;
   }
 }
-.FAQ__list{
+.FAQ__list {
   margin-top: 30px;
-  &:first-child{
+  &:first-child {
     margin-top: 0;
   }
 }
-.FAQ__list--qa{
+.FAQ__list--qa {
   display: flex;
   align-items: start;
   margin-bottom: 40px;
-  img{
+  img {
     width: 28px;
   }
-  p{
+  p {
     margin: -5px 0 0 30px;
     font-size: 24px;
+  }
+}
+.FAQ__img {
+  padding: 40px 0;
+}
+.FAQ__img--wrapper {
+  h2 {
+    font-size: 30px;
+    margin: 20px 0 40px 0;
+    padding: 0 15px;
+    &::before {
+      height: 80px;
+    }
+    &::after {
+      height: 80px;
+    }
+  }
+  p {
+    font-size: 30px;
   }
 }
