@@ -449,3 +449,28 @@ body {
     }
   }
 }
+
+//FAQ
+.FAQ__heading{
+  h1{
+    font-size: 80px;
+  }
+}
+.FAQ__list{
+  margin-top: 40px;
+  &:first-child{
+    margin-top: 0;
+  }
+}
+.FAQ__list--qa{
+  display: flex;
+  align-items: start;
+  margin-bottom: 50px;
+  img{
+    width: 37px;
+  }
+  p{
+    margin: -5px 0 0 40px;
+    font-size: 32px;
+  }
+}

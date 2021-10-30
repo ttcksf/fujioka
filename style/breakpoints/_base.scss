@@ -957,3 +957,38 @@ textarea {
     }
   }
 }
+
+//FAQ
+.FAQ{
+  background: $cWhite;
+}
+.FAQ__heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1{
+    text-align: center;
+    color: $cBlue;
+  }
+}
+.FAQ__lists{
+
+}
+.FAQ__list{
+  border-bottom: 1px solid $cBlue;
+  margin-top: 20px;
+  &:first-child{
+    margin-top: 0;
+  }
+}
+.FAQ__list--qa{
+  display: flex;
+  align-items: start;
+  margin-bottom: 25px;
+  img{
+    width: 20px;
+  }
+  p{
+    margin: -5px 0 0 15px;
+  }
+}
